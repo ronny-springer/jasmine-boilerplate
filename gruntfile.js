@@ -6,6 +6,7 @@ module.exports = function(grunt) {
             src: [
                 // list your files to register fake data
                 // e.g. './spec/data/*.js'
+                './lib/**/*', './src/**/*'
             ],
             options: {
                 specs: './spec/unit/*spec.js',
@@ -28,7 +29,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-requirejs');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['init']);
-    grunt.registerTask('init', ['clean', 'copy', 'jasmine']);    
+    grunt.registerTask('default', ['test']); 
     grunt.registerTask('test', ['jasmine']);
 };
