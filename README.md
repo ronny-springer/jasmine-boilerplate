@@ -1,6 +1,6 @@
 Jasmine Boilerplate
 ===================
-Start from sketch with exmple code to use jasmine.js for your automated and headless test.
+Start from sketch with jasmine.js and use example code for your automated and headless test.
 
 # requirements
 You have to install node.js at your computer and a command line tool like 'git bash' or 'cywin'.
