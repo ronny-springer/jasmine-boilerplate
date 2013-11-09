@@ -19,4 +19,4 @@ You have to install node.js at your computer and a command line tool like 'git b
 4. refactor your code
 
 # resources
-[https://github.com/pivotal/jasmine](jasmine.js at github.com)
+[jasmine.js at github.com](https://github.com/pivotal/jasmine)
