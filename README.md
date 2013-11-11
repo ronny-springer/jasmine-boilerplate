@@ -12,7 +12,7 @@ You have to install node.js at your computer and a command line tool like 'git b
 4. try out example test `grunt test`
 5. drop example and start to write your tests and code
 
-# run tests continuously
+# write tests continuously
 1. use the command `grunt watch`
 2. add new test
 3. add some code to pass the test
