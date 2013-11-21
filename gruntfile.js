@@ -1,12 +1,11 @@
-/*global module */
-module.exports = function(grunt) {
+﻿module.exports = function(grunt) {
 
     grunt.initConfig({
         jasmine: {
             src: [
                 // list your files to register fake data
                 // e.g. './spec/data/*.js'
-                './lib/**/*', './src/**/*'
+                './src/**/*'
             ],
             options: {
                 specs: './spec/unit/*spec.js',
