@@ -6,11 +6,9 @@ Start from sketch with jasmine.js and use example code for your automated and he
 You have to install node.js at your computer and a command line tool like 'git bash' or 'cygwin'.
 
 # setup and run tests
-1. clone this repo with `git clone https://github.com/ronny-springer/jasmine-boilerplate.git`
-2. swith to project folder `cd jasmine-boilerplate`
-3. install all dependencies `npm install`
-4. try out example tests `grunt test`
-5. drop example and start writing your own tests and codes
+1. quick start with `git clone https://github.com/ronny-springer/jasmine-boilerplate.git && cd jasmine-boilerplate && npm install`
+2. try out example tests `grunt test`
+3. drop example tests and start writing your own tests and codes
 
 # write tests continuously
 1. use the command `grunt watch`
